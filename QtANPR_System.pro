@@ -81,11 +81,6 @@ INCLUDEPATH += $$TESSERACT_ROOT_INC/api \
                $$TESSERACT_ROOT_INC/neural_networks/runtime \
                $$TESSERACT_ROOT_INC/opencl \
 
-
-textord
-training
-viewer
-
 LIBS += -L$$TESSERACT_LIBS
 
 CONFIG(release, debug|release){
